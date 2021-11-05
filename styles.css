@@ -2,5 +2,60 @@
     background-image: url("images/image2.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    padding:100px ;
     
 }
+.container{
+    background-color: ;
+    padding: -100px;
+    margin: auto;
+    margin: top -150px;;
+    
+}
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+    color: darkgoldenrod;
+}
+nav{
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+   
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: crimson;
+}
+button{
+   background-color: darkgoldenrod;
+  
+}
+.premium{
+    color: white;
+    font-size: 50px;
+}
+#order{
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+ 

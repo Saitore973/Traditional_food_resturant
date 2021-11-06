@@ -84,7 +84,7 @@ button{
 }
 
 .services{
-    background-color: rgb(211,211,211)
+    background-color: rgb(211,211,211);
 }
 
 .services h2{
@@ -280,6 +280,12 @@ button{
 
 .Rmenu  H4{
     color: #F19201;
+}
+
+.Rmenu  button{
+    background-color: rgb(211,211,211);
+    padding:  5px 20px;
+    
 }
 
 #price1{

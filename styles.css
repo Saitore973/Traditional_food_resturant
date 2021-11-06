@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0;
+    font-family: r;
     
 }
 .burner{
@@ -59,8 +60,9 @@ button{
     color: white;
     font-size: 50px;
     padding: 55px;
-    padd
+   
 }
+
 #order{
     font-size: 30px;
     padding: 10px;
@@ -69,7 +71,7 @@ button{
     
 }
 .services .intro{
-    background-color: rgb(192, 172, 172);
+    
     text-align: center;
     padding: 50px;
     font-size: 40px;
@@ -79,13 +81,36 @@ button{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    font-size: 80px;
+    font-size: 40px;
     padding: 50px;
+    font-weight: lighter;
+    position: relative;
+    margin: 0px 50px;
+   
 }
 .services .icons button{
     border-radius: 50%;
-    font-size: 10px;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 1px;
     
+}
+
+
+
+
+#b1{
+    background-color: violet;
+   
+}
+
+.services .icons p{
+    font-size: 20px;
+    font-style: italic;
+
+ 
 }
 
 .reviews{
@@ -132,4 +157,14 @@ button{
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.footer{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-image: url("images/image8.png") ;
+  
+}
+.footer button{
+    padding: 20px ;
 }

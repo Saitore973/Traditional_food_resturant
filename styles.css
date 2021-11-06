@@ -117,4 +117,19 @@ button{
     text-decoration-line: underline;
     text-underline-offset: centre ;
 }
+
+.Rmenu{
+    padding: 80px;
+  
+}
  
+ .Rmenu .menu{
+    text-align: center;
+}
+
+.Rmenu .food{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

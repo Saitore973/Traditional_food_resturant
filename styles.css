@@ -288,6 +288,10 @@ button{
     
 }
 
+.Rmenu  button:hover{
+    color: #F19201;
+}
+
 #price1{
     background-color: white;
     padding: 30px;
@@ -296,7 +300,7 @@ button{
     background-color: white;
     padding: 30px;
 }
-#price3{
+#price3{text-align: center;
     background-color: white;
     padding: 30px;
 }

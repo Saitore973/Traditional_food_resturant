@@ -88,6 +88,22 @@ button{
     
 }
 
+.reviews{
+    display: flex;
+    background-color: black;
+}
+.reviews .img2{
+    float: left;
+}
 
+.reviews  .organic{
+    float: right;
+    width: 50%;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 20px;
+    color: white;
+   
+}
 
  

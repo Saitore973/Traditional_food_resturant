@@ -68,6 +68,25 @@ button{
     
     
 }
+.services .intro{
+    background-color: rgb(192, 172, 172);
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    font-style: italic;
+}
+.services .icons{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 80px;
+    padding: 50px;
+}
+.services .icons button{
+    border-radius: 50%;
+    font-size: 10px;
+    
+}
 
 
 

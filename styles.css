@@ -70,22 +70,29 @@ button{
     
     
 }
+
+.services{
+    background-color: rgb(236, 230, 230);
+
+}
+
+
 .services .intro{
     
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     font-size: 40px;
     font-style: italic;
 }
 .services .icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     font-size: 40px;
     padding: 50px;
     font-weight: lighter;
-    position: relative;
-    margin: 0px 50px;
+  
+    margin: 0px 70px;
    
 }
 .services .icons button{
@@ -93,18 +100,36 @@ button{
     padding: 25px;
     text-align: center;
     font-size: 20px;
-    position: absolute;
+   
     top: 1px;
     
 }
 
-
-
-
-#b1{
-    background-color: violet;
-   
+.services .icons #one{
+    border: unset;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
 }
+
+.services .icons #two{
+    border: unset;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+}
+
+
+.services .icons #three{
+    border: unset;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+
+}
+
+
+
 
 .services .icons p{
     font-size: 20px;
@@ -145,6 +170,7 @@ button{
 
 .Rmenu{
     padding: 80px;
+    
   
 }
  
@@ -157,6 +183,7 @@ button{
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    font-size: 40px;
 }
 .footer{
     text-align: center;

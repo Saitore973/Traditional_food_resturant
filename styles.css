@@ -170,7 +170,12 @@ button{
     text-align: center;
     padding-left: 20px;
     color: white;
+    line-height: 0%;
    
+}
+
+.reviews  .organic h1{
+    padding: 50px;
 }
 
 .reviews  .organic p{
@@ -181,8 +186,14 @@ button{
 }
 
 .reviews  .organic h1{
-    text-decoration-line: underline;
+    
     text-underline-offset: centre ;
+}
+
+.reviews  .organic hr{
+    width: 140px;
+    height: 10px;
+    background-color: white;
 }
 
 .Rmenu{

@@ -331,6 +331,7 @@ button{
     padding:  10px 40px ;
     background-color: #f5f5f5;
     font-size: 20px;
+    background-color: transparent;
     
 }
 .footer p{
@@ -349,5 +350,6 @@ button{
 
 .footer button:hover{
     color: #F19201;
+    
 }
 
